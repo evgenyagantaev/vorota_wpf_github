@@ -1,0 +1,18 @@
+﻿<Window x:Class="veshki_udp_0._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Секундомер" Height="850" Width="1793.6" Loaded="Window_Loaded" Closed="Window_Closed" Background="#FF5F2828">
+    <Grid Margin="0,0,3.8,40.8">
+        <TextBox x:Name="debug0_textBox" HorizontalAlignment="Left" Height="23" Margin="305,135,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="54" RenderTransformOrigin="3.5,-0.304" Visibility="Hidden"/>
+        <Label x:Name="timer_label" Content="00:00.00" HorizontalAlignment="Left" Margin="23,59,0,0" VerticalAlignment="Top" Height="539" Width="1740" Background="Black" Foreground="Red" FontSize="400"/>
+        <Button x:Name="start_stop_button" Content="Start" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="start_stop_button_Click"/>
+        <Button x:Name="reset_button" Content="Reset" HorizontalAlignment="Left" Margin="117,10,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="reset_button_Click"/>
+        <TextBox x:Name="name_textbox" HorizontalAlignment="Left" Height="183" Margin="23,601,0,-4.8" TextWrapping="Wrap" Text="---------------" VerticalAlignment="Top" Width="1740" Foreground="Red" Background="Black" BorderBrush="Black" FontSize="130"/>
+        <Label x:Name="connection_label" Content="-----" HorizontalAlignment="Left" Margin="215,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="auto_timer_label" Content="00:00.00" HorizontalAlignment="Left" Margin="1171,59,0,0" VerticalAlignment="Top" Height="77" Width="232" Foreground="Red" FontSize="56"/>
+        <Button x:Name="auto_stop_button" Content="auto stop" HorizontalAlignment="Left" Margin="1234,10,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="auto_stop_button_Click"/>
+        <TextBox x:Name="portnumber_textbox" HorizontalAlignment="Left" Height="23" Margin="296,20,0,0" TextWrapping="Wrap" Text="21" VerticalAlignment="Top" Width="25" Background="#FF5F2828"/>
+        <Button x:Name="connect_button" Content="Connect" HorizontalAlignment="Left" Margin="339,20,0,0" VerticalAlignment="Top" Width="58" Click="connect_button_Click"/>
+
+    </Grid>
+</Window>
